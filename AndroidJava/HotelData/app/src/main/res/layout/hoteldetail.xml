@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/hotelInfo"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/photo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_control"
+        android:layout_alignParentBottom="true">
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/button_left"
+            android:text="@string/map_label"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="map"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/button_right"
+            android:text="@string/call_label"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="call"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/button_left2"
+            android:text="@string/update_label"
+            android:textColor="@color/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="hotelUpdate"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/button_right2"
+            android:text="@string/delete_label"
+            android:textColor="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="hotelDelete"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
