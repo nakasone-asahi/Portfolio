@@ -1,0 +1,34 @@
+[
+ {
+  "dest": "bin/libc++_shared.so",
+  "src": "C:/Users/anaka/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so"
+ },
+ {
+  "dest": "bin/libil2cpp.so",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Native/libil2cpp.so"
+ },
+ {
+  "dest": "bin/AudioPluginMSASpatializer.so",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so"
+ },
+ {
+  "dest": "bin/UnityMagicLeap.so",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so"
+ },
+ {
+  "dest": "bin/libml_bluetoothle_plugin.so",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/libml_bluetoothle_plugin.so"
+ },
+ {
+  "dest": "bin/libml_camera_plugin.so",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so"
+ },
+ {
+  "dest": "bin/libml_mediaplayer_plugin.so",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so"
+ },
+ {
+  "dest": "bin/Player.elf",
+  "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Player.elf"
+ }
+]

@@ -1,0 +1,13 @@
+<manifest xmlns:ml="magicleap" ml:package="com.defaultcompany.shootinggame" ml:version_code="1" ml:version_name="" ml:developer_id="26bbe829-67dc-4e1a-acb4-1b5f979c3cb0">
+  <application ml:sdk_version="1.0" ml:visible_name="Shooting_Game" ml:min_api_level="10">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Shooting_Game">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+      <music-attribute ml:name="play" />
+    </component>
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="RegisterBackgroundMusicService" />
+    <uses-privilege ml:name="SecureBrowserWindow" />
+    <uses-privilege ml:name="WorldReconstruction" />
+  </application>
+</manifest>

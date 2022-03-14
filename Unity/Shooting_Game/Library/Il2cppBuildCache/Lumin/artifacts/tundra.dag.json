@@ -1,0 +1,134 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp D:/workspace/Unity/Shooting_Game/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so",
+      "Action": "\"C:\\Users\\anaka\\OneDrive\\デスクトップ\\開発ツール\\Unity\\2020.3.12f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Lumin\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"D:\\workspace\\Unity\\Shooting_Game\\Library/Il2cppBuildCache/Lumin\\Native\\libil2cpp.so\" --cachedirectory=\"D:\\workspace\\Unity\\Shooting_Game\\Assets\\..\\Library\\il2cpp_cache/il2cpp_cache\" --baselib-directory=\"C:/Users/anaka/OneDrive/デスクトップ/開発ツール/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/LuminSupport\\Variations/il2cpp/Release/arm64\" --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=\"D:/workspace/Unity/Shooting_Game/Assets/../Library/il2cpp_stats\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Users/anaka/OneDrive/デスク~1/開発ツ~1/Unity/20203~1.12F/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed --generatedcppdir=D:/workspace/Unity/Shooting_Game/Library/Il2cppBuildCache/Lumin/il2cppOutput",
+      "Inputs": [
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/LuminUnity.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/System.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Unity.XR.InteractionSubsystems.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.LuminModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.XR.MagicLeap.dll",
+        "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "D:/workspace/Unity/Shooting_Game/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}

@@ -1,0 +1,303 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/anaka/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "626cd84c8e41e3543663351d94b8f59011504679",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\libc++_shared.so-0a926e05da462c12",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "b04220e65c1e865bac8b06d5e45ed310d018a46a",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3351956,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "557a6d067328dd5bad8b36fb197f742a2c4681a9",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 62857248,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "897a75356f3c4aae9406ed4e96d63445b6a3d149",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\libil2cpp.so-d909de8d4cda96cb",
+   "xfrm_size": 62858006
+  },
+  {
+   "compression": 8,
+   "hash": "9fac2686ba08278c70caaf3bbbcae82631b5eac8",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 421640,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a29a7ec9e565247d72696b2dcfbdbd072c0df3ea",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\AudioPluginMSASpatializer.so-a69bdf229eac1372",
+   "xfrm_size": 422398
+  },
+  {
+   "compression": 8,
+   "hash": "4fad385385921cb4cd3169bc67c7f3ed20167fce",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3980544,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "13120672a38bb05c5f05d8cb3e6ea109982ec269",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\UnityMagicLeap.so-a69bdf229eac1372",
+   "xfrm_size": 3981302
+  },
+  {
+   "compression": 8,
+   "hash": "dae586f18750ee2eea527c248c3fb73848491924",
+   "pkgpath": "bin/libml_bluetoothle_plugin.so",
+   "size": 14048,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/libml_bluetoothle_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "9751f9989f28b87ccdd4bb4fa78ed07be1a4e7d9",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\libml_bluetoothle_plugin.so-a69bdf229eac1372",
+   "xfrm_size": 14806
+  },
+  {
+   "compression": 8,
+   "hash": "53448f1187d66b536de35a6cfa34ac9147f282a6",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "1cb3725d43f0e013ba0ff6f6481431c212d89326",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\libml_camera_plugin.so-a69bdf229eac1372",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "d713bdcec22ced5d63274867202bf504bec89d95",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67616,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4685ccc5191fcd6cc3fc9c146759d8af6f7f248b",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\libml_mediaplayer_plugin.so-a69bdf229eac1372",
+   "xfrm_size": 68374
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "cd7a638a10e833a6a96d2a7e67c016b93b2491f7",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 4039480,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "6ccf2fa47e5779bda5c5ce0ec80faf671f15374a",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 646356,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "b7650b93627286aaffc5fabb67448cd242200376",
+   "pkgpath": "Data/RuntimeInitializeOnLoads.json",
+   "size": 1548,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/RuntimeInitializeOnLoads.json"
+  },
+  {
+   "compression": 8,
+   "hash": "567d209b4362b1d901ba0ec83844fedaf1b66778",
+   "pkgpath": "Data/ScriptingAssemblies.json",
+   "size": 2757,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/ScriptingAssemblies.json"
+  },
+  {
+   "compression": 8,
+   "hash": "12eea841309a3c140c3ba89a37f0764c8a5fa5e7",
+   "pkgpath": "Data/StreamingAssets/MLImageLibraries/ImageLibraryCache.asset",
+   "size": 406,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/StreamingAssets/MLImageLibraries/ImageLibraryCache.asset"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "4ee59e5921bfd8dcc0347cbbf587d6ca6b107f05",
+   "pkgpath": "Data/boot.config",
+   "size": 69,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "75e6f6ef6205cf2a51884b481dc5c8ebfe48c791",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 73628,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "1992ecd9695e034464add1c76aaea10429229ee0",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 142908,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "32312c6c6b001db94ab76360389ffa3e64b2788b",
+   "pkgpath": "Data/level0",
+   "size": 14376,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "b4ccd56272d2798c4a8cbe963299a7826099361a",
+   "pkgpath": "Data/resources.assets",
+   "size": 648872,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "7f59f3dcbd55d7f384bccaa7405fe40f805c9fd8",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 729480,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "88c6d0df71fc431aa272527e11c5e158ccfa5b00",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 23052524,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "6ac13003c65d4e4a30a957055418b0de75bc0f05",
+   "pkgpath": "bin/Player.elf",
+   "size": 23203752,
+   "src": "D:/workspace/Unity/Shooting_Game/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "D:\\workspace\\Unity\\adevelop.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "b35d8d0f1577daaaa571b288d2a1d33bab0b1f0d",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\Player.elf-6dda59ea15c59ce2",
+   "xfrm_size": 23204510
+  },
+  {
+   "compression": 8,
+   "hash": "0584eb7f1b76eb6346cab8ac5ad29ca4e96eca5f",
+   "pkgpath": "manifest.xml",
+   "size": 817,
+   "src": "D:\\workspace\\Unity\\Shooting_Game\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "1aa78ab38898eee3ba16614efaac53e03fdf4a1f",
+     "developer_id": "26bbe829-67dc-4e1a-acb4-1b5f979c3cb0"
+    }
+   },
+   "xfrm_hash": "7abb9e93057d3903e9ad992f697b50703431db36",
+   "xfrm_path": "D:/workspace/Unity/Shooting_Game/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.defaultcompany.shootinggame-60bbafb341dcea4b\\manifest.xml-6dda59ea15c59ce2",
+   "xfrm_size": 829
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "D:\\workspace\\Unity\\adevelop.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "D:\\workspace\\Unity\\adevelop.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
