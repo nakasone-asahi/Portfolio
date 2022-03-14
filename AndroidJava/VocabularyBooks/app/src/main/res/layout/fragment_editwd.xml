@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_createwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hinatazaka"
+    tools:context=".view.flashcard.CardActivity">
+
+    <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/screen_id8"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/wd_update"
+            android:background="@drawable/shape_rounded_corners_5dp"
+            android:layout_gravity="right"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:text="@string/update"
+            tools:ignore="RtlHardcoded"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/fc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wd_front"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/wd_front_edit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_frame"
+            android:ems="10"
+            android:hint="@string/wd_front_name"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@color/colorOriginalBlue"
+            android:textColorLink="@color/colorOriginalBlue" />
+
+        <TextView
+            android:id="@+id/wd_rear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wd_rear"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/wd_rear_edit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_frame"
+            android:ems="10"
+            android:hint="@string/wd_front_name"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@color/colorOriginalBlue"
+            android:textColorLink="@color/colorOriginalBlue" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp"/>
+
+        <TextView
+            android:id="@+id/wd_errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="46dp"
+            android:text=""
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/wd_delete"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_weight="2"
+                android:background="@color/colorAccent"
+                android:text="@string/delete"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/wd_cancel"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:text="@string/cancel"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

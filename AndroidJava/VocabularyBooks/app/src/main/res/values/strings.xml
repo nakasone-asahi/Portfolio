@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">VocabularyBooks</string>
+
+    <!--各画面共通-->
+    <string name="back">戻る</string>
+    <string name="create">作成</string>
+    <string name="update">更新</string>
+    <string name="delete">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="flashcard">フラッシュカード</string>
+    <string name="fc_confg">フラッシュカード設定ボタン</string>
+    <string name="add">追加する</string>
+    <string name="pass">パスワード</string>
+    <string name="username">ユーザー名</string>
+    <string name="gustlogin">ゲストユーザーでログイン</string>
+    <string name="login">ログイン</string>
+
+    <!--各画面タイトル-->
+    <string name="screen_id1">単語帳アプリ</string><!-- ログイン画面-->
+    <string name="screen_id2">ホーム画面</string><!-- ホーム画面-->
+    <string name="screen_id3">単語帳カード一覧</string><!-- 単語帳カード一覧画面-->
+    <string name="screen_id4">単語帳カード(作成)</string><!-- 単語帳カード(作成)画面-->
+    <string name="screen_id5">単語帳カード(編集)</string><!-- 単語帳カード(編集)画面-->
+    <string name="screen_id6">単語帳ワード一覧</string><!-- 単語帳ワード一覧画面-->
+    <string name="screen_id7">単語帳ワード(作成)</string><!-- 単語帳ワード(作成)画面-->
+    <string name="screen_id8">単語帳ワード(編集)</string><!-- 単語帳ワード(編集)画面-->
+    <string name="screen_id9">アカウント作成</string><!-- アカウント作成画面-->
+
+    <!-- メイン画面-->
+    <string name="mywords">単語帳一覧</string>
+    <string name="ac_add">アカウント作成</string>
+    <string name="logout">ログアウト</string>
+
+    <!--単語帳カード作成画面-->
+    <string name="fcl_title">単語カード・タイトル</string>
+    <string name="fcl_title_name">タイトル</string>
+    <string name="fc_type">単語カード・備考</string>
+
+    <!--単語ワード作成画面-->
+    <string name="wd_front">ワードリスト・前面</string>
+    <string name="wd_front_name">前面name</string>
+    <string name="wd_rear">ワードリスト・後面</string>
+
+    <!--アカウント作成画面-->
+    <string name="ac_username">ユーザー名</string>
+    <string name="ac_pass">パスワード</string>
+    <string name="ac_username_edit">名前記入欄</string>
+    <string name="ac_pass_edit">パス記入欄</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

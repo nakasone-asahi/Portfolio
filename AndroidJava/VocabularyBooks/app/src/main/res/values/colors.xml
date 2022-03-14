@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="hinatazaka">#7cc7e8</color>
+    <color name="logoutcolor">#ff6347</color>
+    <color name="yellow">#ffd700</color>
+    <color name="red">#ff0000</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF7cc7e8</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#8BC34A</color>
+    <color name="colorAccent">#F23A30</color>
+    <color name="colorSettingBg">#EFEFF4</color>
+    <color name="colorOriginalBlue">#195CB8</color>
+    <color name="colorOriginalGreen">#37AB9D</color>
+    <color name="colorOriginalSky">#007AFF</color>
+    <color name="colorOriginalWhiteGreen">#19B85C</color>
+    <color name="colorOriginalDarkGreen">#19B8A6</color>
+    <color name="colorOriginalGray">#c0c0c0</color>
+    <color name="colorBackground">#FAFAFA</color>
+</resources>

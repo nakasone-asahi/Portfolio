@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_createac"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hinatazaka"
+    tools:context=".view.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/screen_id9"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/ac_username"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ac_username_input"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_frame"
+            android:textColor="@android:color/black"
+            android:ems="10"
+            android:hint="@string/ac_username_edit"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColorHighlight="@color/colorOriginalBlue"
+            android:textColorLink="@color/colorOriginalBlue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/ac_pass"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ac_pass_input"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/border_frame"
+            android:textColor="@android:color/black"
+            android:ems="10"
+            android:hint="@string/ac_pass_edit"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColorHighlight="@color/colorOriginalBlue"
+            android:textColorLink="@color/colorOriginalBlue" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:id="@+id/ac_errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="46dp"
+            android:text=""
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/ac_create"
+                android:background="@drawable/shape_rounded_corners_5dp"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/create"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/ac_cancel"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:text="@string/cancel"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

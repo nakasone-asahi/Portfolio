@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/flashcard"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="70dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/text_show"
+            android:layout_width="187dp"
+            android:layout_height="77dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageButton
+            android:id="@+id/wd_cange_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/cange_btn"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/wd_conf_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/edit_btn"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

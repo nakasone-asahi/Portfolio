@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hinatazaka"
+    tools:context=".view.flashcard.CardActivity"
+    android:id="@+id/mywordactivity">
+
+
+    <LinearLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backMain_Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/hinatazaka"
+            android:contentDescription="@string/back"
+            app:srcCompat="@drawable/back_button" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/screen_id3"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/add_fc"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@color/hinatazaka"
+            android:layout_gravity="right"
+            android:contentDescription="@string/add"
+            android:minWidth="48dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/add_button" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_horizontal_center"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="@color/colorOriginalGray"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlebar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/line_horizontal_center">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listView_fc"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/fc_list_items"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentFCcreateview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/FcEditFragmentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
